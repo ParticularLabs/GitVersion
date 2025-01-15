@@ -63,3 +63,193 @@ updates:
   directory: "/"
   schedule:
     interval: monthly
+
+- package-ecosystem: docker
+  directory: /.devcontainer
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /build/artifacts
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /build/build
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /build/chores
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /build/common
+  schedule:
+    interval: daily
+
+- package-ecosystem: docker
+  directory: /build/docker
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /build/docker
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /build/docs
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /build/publish
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /build/release
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /new-cli/GitVersion.Calculation
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /new-cli/GitVersion.Cli.Generator
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /new-cli/GitVersion.Cli
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /new-cli/GitVersion.Common.Command
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /new-cli/GitVersion.Common
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /new-cli/GitVersion.Configuration
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /new-cli/GitVersion.Core.Libgit2Sharp
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /new-cli/GitVersion.Core.Tester
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /new-cli/GitVersion.Core
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /new-cli/GitVersion.Normalization
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /new-cli/GitVersion.Output
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /new-cli
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.App.Tests
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.App
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.BuildAgents.Tests
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.BuildAgents
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.Configuration.Tests
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.Configuration
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.Core.Tests
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.Core
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.LibGit2Sharp
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.MsBuild.Tests
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.MsBuild
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.Output.Tests
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.Output
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.Schema
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /src/GitVersion.Testing
+  schedule:
+    interval: daily
+
+- package-ecosystem: nuget
+  directory: /tests/integration
+  schedule:
+    interval: daily
